@@ -1,5 +1,3 @@
-# Bayesain_estimation_of_the_R6G_diffusivity_in_tumor_spheroids
-
 # General description
 In this work, the goal is to determine the diffusion coefficient of the rhodamine 6G (R6G) diffusing in breast tumor spheroids. The notebook file **"Diffusion_in_spheroids"** provides a detailed description of how the attenuation and diffusion coefficients are obtained. The sample images are in a zip file named **"spheroid_images.zip".**
 Here, we demonstrate how the mass diffusivity and light attenuation coefficients can be accurately determined for R6G as a mock drug diffusing into cancer spheroids using the Bayesian approach and MCMC sampling method. Specifically, we determine the diffusivity and attenuation coefficients by sampling from the posterior using the No-U-Turn Sampler. The sampling is conducted using PyMC3 in Python. For further information, please visit our publication at https://www.sciencedirect.com/science/article/abs/pii/S0168365921005319.
